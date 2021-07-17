@@ -4,8 +4,8 @@
 
 body {
   font-family: sans-serif;
-  margin: 3rem;
-  background-color: #dfdfdf;
+
+  background-color: #ffe6ff;
 }
 
 h1, h2 {
@@ -14,13 +14,13 @@ h1, h2 {
 
 .btn {
   font: inherit;
-  padding: 0.5rem 1.5rem;
+
   cursor: pointer;
   border-radius: 4px;
-  background-color: #800040;
+  background-color: #990099;
   color: white;
-  border: 1px solid #800040;
-  margin: 0 1rem;
+  border: 1px solid #990099;
+  
 }
 
 .btn:hover {
@@ -37,12 +37,9 @@ h1, h2 {
   background-color: #f8dae9;
 }
 
-.card {
-  background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  width: 20rem;
+.card2 {
+ width: 18rem;
+  
 }
 
 .actions {
@@ -70,4 +67,9 @@ h1, h2 {
   height: 100vh;
   top: 0;
   left: 0;
+}
+
+.todo{
+  display: flex;
+  width: inherit;
 }
