@@ -22,7 +22,7 @@ function MainNavigation() {
                         <Link to="/done-tasks">Done Tasks</Link>
                     </li>
                     <li>
-                        <Link to="/favorites">Undone Tasks
+                        <Link to="/undone-tasks">Undone Tasks
 
                         </Link>
                     </li>

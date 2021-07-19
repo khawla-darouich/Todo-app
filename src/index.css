@@ -46,7 +46,20 @@ h1, h2 {
   text-align: right;
 }
 
-.modal {
+.modal2 {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 20rem;
+  z-index: 10;
+  position: fixed;
+  top: 35vh;
+  left: calc(50% - 10rem);
+}
+
+.form {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   background-color: white;
@@ -55,10 +68,9 @@ h1, h2 {
   width: 30rem;
   z-index: 10;
   position: fixed;
-  top: 20vh;
+  top: 30vh;
   left: calc(50% - 15rem);
 }
-
 .backdrop {
   position: fixed;
   z-index: 1;
@@ -72,4 +84,10 @@ h1, h2 {
 .todo{
   display: flex;
   width: inherit;
+}
+
+.title
+{
+  color: #990099;
+  font-weight:600;
 }
